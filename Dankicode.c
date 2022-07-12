@@ -32,7 +32,7 @@ int main()
     return 0;
 }
 */
-
+/*
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -53,4 +53,118 @@ int main()
     
 
     return 0;
+}
+*/
+/*
+int main ( ) {
+
+char letra;
+
+printf("Entre com uma letra minuscula:\n");
+
+scanf("%c", &letra);
+
+letra = letra + ( 'A' - 'a' );
+
+printf("Caractere = %c \n", letra);
+
+return 0;
+
+}
+*/
+
+/*
+#include <stdio.h>
+
+void main(){
+
+char ch1, ch2;
+printf("Entre com duas letras:\n");
+
+scanf("%c %c", &ch1, &ch2);
+
+ch1 = ch2;
+
+ch2 = ch1;
+
+printf("ch1 = %c e ch2 = %c\n", ch1, ch2);
+
+}
+*/
+
+/*
+#include <stdio.h>
+
+void main(){
+
+int num;
+
+printf("Entre com um inteiro:\n");
+
+scanf("%d", &num);
+
+num = num + num%3;
+
+printf("num = %d \n", num);
+
+}
+*/
+/*
+#include <stdio.h>
+void main(){
+printf("Hello World");
+}
+*/
+
+/*
+#include <stdio.h>
+void main(){
+printf("Primeira linha\n");
+printf("Segunda linha");
+}
+*/
+
+/*
+#include <stdio.h>
+void main(){
+int a = 10;
+char ch = 'Z';
+printf("Atualmente, temos a = %d e ch = %c.\n", a, ch);
+}
+*/
+
+/*
+#include <stdio.h>
+void main(){
+int a, b, c;
+a = 10;
+b = a + 1;
+c = b + 2;
+printf("Atualmente, temos a = %d, b = %d e c = %d.\n", a, b, c);
+}
+*/
+/*
+#include <stdio.h>
+void main(){
+int a;
+a = 10;
+printf("A variavel a vale %d. Seu sucessor e o %d.\n", a, a + 1);
+}
+*/
+/*
+#include <stdio.h>
+void main(){
+char ch1, ch2, ch3;
+ch1 = 'H';
+ch2 = 'o';
+ch3 = 'W';
+printf("%cell%c %corld.\n", ch1, ch2, ch3);
+}
+
+*/
+#include <stdio.h>
+void main(){
+float a;
+a = 12.5;
+printf("a = %.2f\n", a);
 }
